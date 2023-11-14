@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let n, c, s;
+
+        n = Number(prompt('n'));
+        s = 0;
+        c = 0;
+
+        while (n > 0) {
+            c = c + 1;
+            s = s + n % 10;
+            n = (double)(n / 10);
+        }
+        alert("raqamlar yigindisi: " + s);
+        alert(c + " xonali son");
+
+    </script>
+</body>
+
+</html>
